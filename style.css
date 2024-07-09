@@ -10,7 +10,7 @@
     width: fit-content;
     margin: 10% auto;
     position: relative;
-    padding: 30px 15px 15px 15px;
+    padding: 40px 15px 15px 15px;
     border-radius: 10px;
 }
 
@@ -20,7 +20,8 @@
     width:315px;
     font-size: 67px;
     overflow: hidden;
-   background-color:#ebebeb;
+    /* background-color:#f5f2eb; */
+    color: white;
     border-radius: 10px;
     padding: 0 5px;
    
@@ -42,8 +43,8 @@ button {
     border: none;
     outline: none;
 }
-button:hover{
-    background-color: #adadac;
+button:hover,.sp-key.special:hover{
+    background-color: #d1d0cd;
 }
 .special-keys {
     display: grid;
@@ -57,8 +58,12 @@ button:hover{
 }
 
 .sp-key {
-    background-color: #ad845a;
+    background-color: #f5ad1d;
+}
+.sp-key.special{
+    background-color:#f5f2eb;
+    color: black;
 }
 .sp-key:hover{
-    background-color: #e6a463;
+    background-color:#e6781e;
 }
