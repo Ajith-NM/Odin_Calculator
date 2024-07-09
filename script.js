@@ -50,7 +50,7 @@ function display(value) {
         result = ''
         operator = value
         secondNumber = 0
-        document.getElementById('result').innerHTML = value
+        document.getElementById('result').innerHTML = firstNumber
     }
 
 
