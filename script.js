@@ -81,12 +81,14 @@ function reset() {
 function getdelete(){
   if (result==='') {
    operator=''
-   document.getElementById('result').innerHTML = firstNumber
+    document.getElementById('result').innerHTML = firstNumber?firstNumber:0
+  
+   
   }
   else{
    result=result.slice(0,-1)
    if (result=='') {
-    document.getElementById('result').innerHTML = operator
+    document.getElementById('result').innerHTML = operator?operator:firstNumber
    } else {
     document.getElementById('result').innerHTML = result
    }
