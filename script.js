@@ -88,7 +88,7 @@ function getdelete(){
   else{
    result=result.slice(0,-1)
    if (result=='') {
-    document.getElementById('result').innerHTML = operator?operator:firstNumber
+    document.getElementById('result').innerHTML = firstNumber
    } else {
     document.getElementById('result').innerHTML = result
    }
